@@ -1,0 +1,277 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 125%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    padding: 1rem 2rem;
+}
+.logo a img{
+    height: 2rem;
+    align-items: center;
+    display: flex;
+    
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.navbar ul li a:hover{
+    text-decoration: underline;
+}
+
+
+.hamburgerMenu{
+    display: none;
+}
+
+
+
+
+.search-engine{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.5) !important;
+    border-radius: 8px;
+    height: 50px;
+    
+}
+
+
+.search-engine input{
+    height: 2em;
+    border: none;
+    width: 300px;
+    padding: 1em;
+    
+}
+.search-engine input:focus{
+    outline: none;
+}
+
+.search-engine button{
+    font-size: 20px;
+    width: 3rem;
+    padding: 15px;
+    border: none;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 0 8px 8px 0;
+   
+    
+}
+.search-engine button:hover{
+    background-color: rgb(124, 222, 255);
+    
+    
+}
+
+.navbar ul li{
+    padding-left: 1rem;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.title-container{
+    display: flex;
+    padding: 0 2rem;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+
+
+h1{
+    font-size: calc(10px + 2vw);
+    margin-bottom: 1rem;
+}
+
+.title-container .column-2{
+    background-color: rgb(124, 222, 255);
+    border-radius: 0 20px 20px 0;
+    padding: 20px 30px;
+}
+
+.title-container .column-2{
+    width: 35%;
+}
+.title-container .column-1{
+    width: 65%;
+}
+
+.title-container img{
+    width: 100%;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px 0 0 20px;
+}
+
+.title-text  div {
+    
+    justify-content: center;
+    display: flex;
+    
+    
+}
+.title-text h2{
+    font-size: calc(15px + 2vw);
+    padding-bottom: 1rem;
+}
+
+.title-text p{
+    font-size: calc(8px + 1vw);
+}
+
+.title-text div button{
+    margin-top: 1em;
+    border: 0;
+    font-size: calc(1px + 2vw);
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    padding: 15px;
+    
+}
+.title-text div button:hover{
+    text-decoration: underline;
+}
+
+main h2{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    
+}
+
+
+.main-container{
+    padding: 0 2rem;
+    
+}
+
+
+main .column{
+    width: 50%;
+    
+}
+
+.main-container h3{
+    padding-bottom: 1rem;
+}
+
+main .column-1,
+main .column-3,
+main .column-5 {
+    background-color: rgb(124, 222, 255);
+    padding: 3%;
+    max-height: 100%;
+    font-size: calc(10px + 1vw);
+    
+}
+
+main .column-1{
+    border-radius: 20px 0 0 0;
+}
+main .column-2 img{
+    border-radius: 0 20px 0 0;
+}
+main .column-5{
+    border-radius: 0 0 0 20px;
+}
+main .column-6 img{
+    border-radius: 0 0 20px 0;
+}
+main .column-2 img,
+main .column-4 img, 
+main .column-6 img {
+    width: 100%;
+    height: 100%;
+}
+
+main .row{
+    display: flex;
+    
+}
+
+.row-2{
+    flex-direction: row-reverse;
+} 
+
+.footer-container{
+    padding: 0 8%;
+}
+
+
+.main-container .reviews-box div{
+    display: flex;
+    padding: 1rem 0;
+    align-items: center;
+}
+
+.main-container .reviews-box div p{
+    padding-left: 2rem;
+}
+
+.main-container .reviews-box div:first-child{
+    padding-top: 0rem !important;
+}
+.main-container .reviews-box div img{
+    width: calc(40px + 2vw);
+    height: calc(40px + 2vw);
+    border-radius: 20px;
+}
+
+
+.footer-container{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.footer-container .copyright{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.footer-container .social-icons{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.footer-container .social-icons a i{
+    color: black;
+    padding: 0 10px;
+}
+.footer-container .social-icons a i:hover{
+    color: rgb(124, 222, 255);
+}

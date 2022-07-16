@@ -1,0 +1,130 @@
+@media only screen and (max-width: 800px) {
+    .navbar{
+        position: relative;
+    }
+
+    .navbar .links{
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-top: 25px;
+        
+    }
+    
+    .navbar .links li a {
+        display: flex;
+        background-color: white;
+        padding: 10px 20px;
+        width: 100%;
+        border-bottom: 1px dotted black;
+    }
+    
+    .navbar .hamburgerMenu{
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        color: black;
+        text-decoration: none;
+        font-size: 30px;
+        transform: translateY(-50%);
+    }
+    
+    .nav-container{
+        padding: 0 10px !important;
+        line-height: 1em;
+        
+    }
+    .title-container h1{
+        font-size: 30px;
+    }
+    
+    .title-container{
+        flex-direction: column;
+        padding: 0 !important;
+    }
+
+    .nav-container .search-engine input{
+        display: none;
+        
+    }
+    .nav-container .search-engine{
+        border: 0 !important;
+    }
+    .nav-container .search-engine button {
+        border-radius: 8px;
+        
+        
+    }
+    .logo a img{
+        height: 30px !important;
+    }
+    .navbar ul{
+        flex-direction: column;
+    }
+
+    .title-container img{
+        border-radius: 0 0 0 0 !important;
+    }
+
+    .title-container .column-2{
+        border-radius: 0 0 0 0 !important;
+    }
+    .title-container .column-2{
+        width: 100% !important;
+    }
+    .title-container .column-1{
+        width: 100% !important;
+        
+    }
+    .title-text p{
+        font-size: 1em !important;
+    }
+    .title-text div button{
+        font-size: 1em !important;
+    }
+    
+    .search-engine button{
+        width: 3em !important;
+        font-size: 15px !important;
+        padding: 10px 0px !important;
+
+    }
+    .main-container .reviews-box div{
+        flex-direction: column;
+    }
+
+    .main-container .reviews-box div p{
+        padding-top: 1rem;
+    }
+    .main-container{
+        padding: 0px !important;
+        
+    }
+    main .column{
+        width: 100% !important;
+        
+    }
+    main .row{
+        flex-direction: column;
+        
+    }
+
+    main .column-1,
+    main .column-2 img,
+    main .column-5,
+    main .column-6 img{
+        border-radius: 0 0 0 0 !important;
+        
+        
+    }
+    main .column-1,
+    main .column-3,
+    main .column-5{
+        font-size: 1em !important;
+        padding-bottom: 1em !important;
+    }
+    
+    
+}
