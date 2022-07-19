@@ -49,16 +49,16 @@ html{
     align-items: center;
     border: 1px solid rgba(0, 0, 0, 0.5) !important;
     border-radius: 8px;
-    height: 50px;
+    height: 40px;
     
 }
 
 
 .search-engine input{
-    height: 2em;
+    
     border: none;
     width: 300px;
-    padding: 1em;
+    padding-left: 20px;
     
 }
 .search-engine input:focus{
@@ -68,7 +68,7 @@ html{
 .search-engine button{
     font-size: 20px;
     width: 3rem;
-    padding: 15px;
+    padding: 10px;
     border: none;
     background-color: black;
     color: white;
@@ -89,7 +89,7 @@ html{
     padding-left: 1rem;
     display: flex;
     align-items: center;
-    font-size: 25px;
+    font-size: calc(10px + 1vw);
 }
 
 .navbar ul{
